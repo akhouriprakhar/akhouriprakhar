@@ -7,4 +7,4 @@ look:
   style: classic
   color: green
   background: none
-show: [languages, weekly, summary, streaks]
+show: [weekly, streaks]

@@ -1,40 +1,35 @@
 <svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Ambient Glow Gradients -->
     <radialGradient id="emerald-glow" cx="20%" cy="30%" r="60%">
       <stop offset="0%" stop-color="#10B981" stop-opacity="0.22" />
       <stop offset="50%" stop-color="#059669" stop-opacity="0.06" />
       <stop offset="100%" stop-color="#080B11" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="purple-glow" cx="80%" cy="70%" r="55%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22" />
-      <stop offset="50%" stop-color="#6D28D9" stop-opacity="0.06" />
+    <radialGradient id="cyan-glow" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14" />
+      <stop offset="60%" stop-color="#0284C7" stop-opacity="0.03" />
       <stop offset="100%" stop-color="#080B11" stop-opacity="0" />
     </radialGradient>
-
-    <!-- Outer Frame Border Gradient -->
     <linearGradient id="frame-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.45" />
-      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
-
-    <!-- Title Gradient -->
     <linearGradient id="name-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="60%" stop-color="#E2E8F0" />
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="65%" stop-color="#F8FAFC" />
       <stop offset="100%" stop-color="#34D399" />
     </linearGradient>
-
-    <style>
-      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-      @keyframes beacon { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.3); opacity: 0.4; } }
-      .cursor { animation: blink 1s step-start infinite; }
-      .beacon-dot { animation: beacon 2s ease-in-out infinite; transform-origin: center; }
-      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    </style>
   </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes beacon { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.85); } }
+    .cursor { animation: blink 1s infinite; }
+    .beacon-dot { animation: beacon 2s infinite ease-in-out; transform-origin: center; }
+  </style>
 
   <!-- Main Container -->
   <rect width="860" height="320" rx="16" fill="#0A0D14" />
@@ -42,78 +37,75 @@
 
   <!-- Ambient Light Fields -->
   <circle cx="200" cy="90" r="180" fill="url(#emerald-glow)" />
-  <circle cx="700" cy="220" r="190" fill="url(#purple-glow)" />
+  <circle cx="700" cy="240" r="160" fill="url(#cyan-glow)" />
 
-  <!-- Window Title Bar -->
-  <rect width="858" height="42" x="1" y="1" rx="15" fill="#111622" fill-opacity="0.8" />
-  <line x1="1" y1="42" x2="859" y2="42" stroke="#1F293D" stroke-width="1" />
-
-  <!-- Window Controls -->
-  <circle cx="24" cy="21" r="5.5" fill="#EF4444" />
-  <circle cx="42" cy="21" r="5.5" fill="#F59E0B" />
+  <!-- Window Chrome Controls -->
+  <circle cx="28" cy="21" r="5.5" fill="#EF4444" />
+  <circle cx="44" cy="21" r="5.5" fill="#F59E0B" />
   <circle cx="60" cy="21" r="5.5" fill="#10B981" />
 
   <!-- Title -->
-  <text x="430" y="26" text-anchor="middle" class="mono" font-size="12" fill="#94A3B8" letter-spacing="0.04em">prakhar@ghostty ~ % identity --verified</text>
+  <text x="430" y="25" text-anchor="middle" class="mono" font-size="12" fill="#94A3B8" letter-spacing="0.04em">prakhar@engineering-core ~ % telemetry --active</text>
 
   <!-- Live Status Badge -->
-  <g transform="translate(670, 11)">
-    <rect width="165" height="22" rx="11" fill="#064E3B" fill-opacity="0.5" stroke="#059669" stroke-width="1" />
+  <g transform="translate(680, 11)">
+    <rect width="155" height="22" rx="11" fill="#064E3B" fill-opacity="0.5" stroke="#059669" stroke-width="1" />
     <circle cx="14" cy="11" r="3.5" fill="#34D399" class="beacon-dot" />
-    <text x="25" y="15" class="mono" font-size="10" font-weight="600" fill="#34D399" letter-spacing="0.06em">SSTC · 8.79 CPI · '28</text>
+    <text x="24" y="15" class="mono" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.06em">ONLINE · CSE '28</text>
   </g>
 
   <!-- Content Block -->
-  <g transform="translate(36, 72)">
+  <g transform="translate(36, 68)">
     <!-- Command 1: Identity -->
     <text x="0" y="0" class="mono" font-size="13" fill="#10B981" font-weight="600">$ whoami</text>
-    <text x="0" y="32" class="sans" font-size="32" font-weight="800" fill="url(#name-gradient)" letter-spacing="-0.02em">Akhouri Prakhar</text>
-    <text x="0" y="58" class="mono" font-size="12.5" fill="#94A3B8">
-      Prakhar · <tspan fill="#34D399" font-weight="600">3rd-Year B.Tech CSE ('28)</tspan> @ SSTC Bhilai · SWE &amp; Data Ops Intern @ Orchvate
+    <text x="0" y="32" class="sans" font-size="30" font-weight="800" fill="url(#name-gradient)" letter-spacing="-0.02em">Akhouri Prakhar</text>
+    <text x="0" y="56" class="mono" font-size="12" fill="#94A3B8">
+      Prakhar · Pursuing <tspan fill="#34D399" font-weight="600">B.Tech in Computer Science &amp; Engineering</tspan> (Class of 2028 · 8.79 CPI)
     </text>
 
-    <!-- Role Pills -->
-    <g transform="translate(0, 72)">
-      <rect width="215" height="22" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
-      <text x="10" y="15" class="mono" font-size="10.5" fill="#38BDF8">AWS Student Builder Tech Lead</text>
-
-      <g transform="translate(225, 0)">
-        <rect width="210" height="22" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
-        <text x="10" y="15" class="mono" font-size="10.5" fill="#A78BFA">Orchvate SWE &amp; Data Ops Intern</text>
-      </g>
-    </g>
-
     <!-- Horizontal Divider -->
-    <line x1="0" y1="108" x2="788" y2="108" stroke="#1E293B" stroke-dasharray="4 4" stroke-width="1" />
+    <line x1="0" y1="74" x2="788" y2="74" stroke="#1E293B" stroke-dasharray="4 4" stroke-width="1" />
 
-    <!-- Command 2: Functional System Environment Report -->
-    <g transform="translate(0, 130)">
-      <text x="0" y="0" class="mono" font-size="13" fill="#8B5CF6" font-weight="600">$ cat environment.manifest</text>
+    <!-- Command 2: Core Engineering Capabilities -->
+    <g transform="translate(0, 98)">
+      <text x="0" y="0" class="mono" font-size="13" fill="#8B5CF6" font-weight="600">$ cat core_engineering_domains.manifest</text>
 
-      <!-- Terminal Environment Shell Window -->
+      <!-- 3 Spec Boxes -->
+      <!-- Pillar 1: Static Analysis & Security -->
       <g transform="translate(0, 14)">
-        <rect width="788" height="74" rx="8" fill="#0B111E" stroke="#1E293D" stroke-width="1" />
+        <rect width="252" height="96" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <rect width="252" height="4" rx="2" fill="#10B981" />
+        <text x="14" y="26" class="mono" font-size="10.5" font-weight="700" fill="#34D399">01 / SECURITY &amp; ASTs</text>
+        <text x="14" y="48" class="sans" font-size="13" font-weight="700" fill="#F8FAFC">Deterministic DPDP Audit</text>
+        <text x="14" y="68" class="sans" font-size="11" fill="#94A3B8">20+ Semgrep AST rules, DAG</text>
+        <text x="14" y="84" class="sans" font-size="11" fill="#94A3B8">dependency graphs &amp; code scans.</text>
+      </g>
 
-        <!-- Column 1: Core Track & Architecture -->
-        <g transform="translate(20, 22)">
-          <text x="0" y="0" class="mono" font-size="11.5" fill="#64748B">ENGINEERING <tspan fill="#F8FAFC">Deterministic Systems · Static Edge · Security ASTs</tspan></text>
-          <text x="0" y="19" class="mono" font-size="11.5" fill="#64748B">CORE STACK  <tspan fill="#60A5FA">C++ (DSA) · Python (FastAPI/Pandas) · React &amp; Next.js</tspan></text>
-          <text x="0" y="38" class="mono" font-size="11.5" fill="#64748B">WORKSTATION <tspan fill="#34D399">Apple Silicon M5 (macOS) · Ghostty · Linux Mint</tspan></text>
-        </g>
+      <!-- Pillar 2: Systems & Automation -->
+      <g transform="translate(268, 14)">
+        <rect width="252" height="96" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <rect width="252" height="4" rx="2" fill="#38BDF8" />
+        <text x="14" y="26" class="mono" font-size="10.5" font-weight="700" fill="#60A5FA">02 / DATA OPS &amp; PIPELINES</text>
+        <text x="14" y="48" class="sans" font-size="13" font-weight="700" fill="#F8FAFC">Automated Payroll Engine</text>
+        <text x="14" y="68" class="sans" font-size="11" fill="#94A3B8">3-point reconciliation (151 staff</text>
+        <text x="14" y="84" class="sans" font-size="11" fill="#94A3B8">@ Orchvate), async bots &amp; ETL.</text>
+      </g>
 
-        <!-- Column 2: Hackathon & Execution Track Record -->
-        <g transform="translate(470, 22)">
-          <text x="0" y="0" class="mono" font-size="11.5" fill="#64748B">HACKATHONS <tspan fill="#A78BFA">2nd Runner-Up HackBIOS 3.0 (VeyLance AI)</tspan></text>
-          <text x="0" y="19" class="mono" font-size="11.5" fill="#64748B">HARDWARE   <tspan fill="#F8FAFC">1st Prize MeitY Autonomous UAV Bootcamp (IIT Bhilai)</tspan></text>
-          <text x="0" y="38" class="mono" font-size="11.5" fill="#64748B">STATUS     <tspan fill="#34D399">🟢 Active Builder · Shipping Production Software</tspan></text>
-        </g>
+      <!-- Pillar 3: Edge & Cloud -->
+      <g transform="translate(536, 14)">
+        <rect width="252" height="96" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <rect width="252" height="4" rx="2" fill="#8B5CF6" />
+        <text x="14" y="26" class="mono" font-size="10.5" font-weight="700" fill="#A78BFA">03 / PRODUCTION EDGE &amp; CLOUD</text>
+        <text x="14" y="48" class="sans" font-size="13" font-weight="700" fill="#F8FAFC">Resilient Edge &amp; Cloud</text>
+        <text x="14" y="68" class="sans" font-size="11" fill="#94A3B8">Next.js 16 on Cloudflare Pages, 5</text>
+        <text x="14" y="84" class="sans" font-size="11" fill="#94A3B8">offline PWAs &amp; AWS Tech Lead.</text>
       </g>
     </g>
 
     <!-- Bottom Active Prompt -->
     <g transform="translate(0, 234)">
       <text x="0" y="0" class="mono" font-size="12" fill="#64748B">
-        <tspan fill="#10B981">➜</tspan> <tspan fill="#38BDF8">~/workspace</tspan> <tspan fill="#64748B">git:(main)</tspan> <tspan fill="#F1F5F9">make build-production</tspan><tspan fill="#34D399" class="cursor">_</tspan>
+        <tspan fill="#10B981">➜</tspan> <tspan fill="#38BDF8">~/engineering</tspan> <tspan fill="#64748B">git:(main)</tspan> <tspan fill="#F1F5F9">deploy --production</tspan><tspan fill="#34D399" class="cursor">_</tspan>
       </text>
     </g>
   </g>

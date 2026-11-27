@@ -1,9 +1,10 @@
-<svg width="124" height="40" viewBox="0 0 124 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="124" height="40" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1.2" />
-  <!-- Modern Clean Geometric Mail Vector -->
-  <g transform="translate(16, 12)">
-    <path d="M1.5 1.5h15c.83 0 1.5.67 1.5 1.5v10c0 .83-.67 1.5-1.5 1.5h-15A1.5 1.5 0 010 13V3c0-.83.67-1.5 1.5-1.5z" stroke="#10B981" stroke-width="1.4" fill="none" />
-    <path d="M1 3l8 6 8-6" stroke="#10B981" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-  </g>
-  <text x="44" y="25" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="0.02em">Email</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 38" width="124" height="38" role="img" aria-label="Email">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    rect { fill: #161b22; stroke: #30363d; stroke-width: 1; transition: all 0.2s ease; }
+    svg:hover rect { fill: #11241e; stroke: #10b981; }
+  </style>
+  <rect width="124" height="38" rx="8" />
+  <path transform="translate(14, 11) scale(0.67)" fill="#10b981" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+  <text x="42" y="23.5" fill="#e6edf3" font-size="13" font-weight="600" class="sans">Email</text>
 </svg>
