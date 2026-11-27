@@ -7,7 +7,7 @@ look:
   style: classic
   color: github
   background: none
-show: [languages, contributions, weekly, summary, streaks, about, repos, downloads]
+show: [about, summary, languages, weekly, streaks]
 cards:
   about:
     headline: "Hi, I'm *Akhouri*"
