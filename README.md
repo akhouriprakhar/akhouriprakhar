@@ -2,11 +2,37 @@
   <img src="./header.svg" alt="Akhouri Prakhar Engineering Workstation" width="100%" />
 </div>
 
-### Confirmed Technical Stack
+### Technical Stack
 
-<div align="center">
-  <img src="./techstack.svg" alt="Technical Arsenal" width="100%" />
-</div>
+<p align="left">
+  <strong>Languages &amp; Core Systems</strong><br />
+  <img src="./assets/tech/cpp.svg" height="32" alt="C++ (DSA)" title="C++ — Data Structures, Algorithms (Striver A2Z / LeetCode) &amp; Priority Systems" />
+  <img src="./assets/tech/python.svg" height="32" alt="Python" title="Python — FastAPI, Async Bots, pandas/openpyxl Payroll Reconciliation &amp; ETL" />
+  <img src="./assets/tech/javascript.svg" height="32" alt="JavaScript" title="JavaScript (ES6+) — Offline-First PWAs, Service Workers &amp; Dynamic DOM Engines" />
+  <img src="./assets/tech/typescript.svg" height="32" alt="TypeScript" title="TypeScript — Typed Frontend Architecture, Dagre &amp; @xyflow/react Dashboards" />
+  <img src="./assets/tech/c.svg" height="32" alt="C Systems" title="C — Low-Level Systems Programming, Pointers &amp; Memory Fundamentals" />
+  <img src="./assets/tech/sql.svg" height="32" alt="SQL / SQLite" title="SQL, SQLite &amp; PostgreSQL — Relational Schemas, Local Persistence &amp; Async Scraper Storage" />
+</p>
+
+<p align="left">
+  <strong>Frameworks, AST &amp; Web Runtimes</strong><br />
+  <img src="./assets/tech/react.svg" height="32" alt="React 18" title="React 18 &amp; Vite — Component Systems, @xyflow/react &amp; Azure SWA Staging Pipelines" />
+  <img src="./assets/tech/nextjs.svg" height="32" alt="Next.js 16" title="Next.js 16 — App Router, SSR/SSG &amp; Technical SEO Production Builds (careathomeranchi.com)" />
+  <img src="./assets/tech/fastapi.svg" height="32" alt="FastAPI" title="FastAPI — High-Throughput Async Python APIs &amp; DPDP Compliance Scanning Engine" />
+  <img src="./assets/tech/semgrep.svg" height="32" alt="Semgrep AST" title="Semgrep AST — Custom YAML Pattern Rules for DPDP Statutory Code Auditing" />
+  <img src="./assets/tech/tailwind.svg" height="32" alt="Tailwind CSS" title="Tailwind CSS &amp; CSS3 Grid — Dark-Mode Cybersecurity &amp; Responsive Layouts" />
+  <img src="./assets/tech/data-ml.svg" height="32" alt="Data / ML" title="pandas, LightGBM &amp; CVAT — Data Preprocessing, Reorder Modeling &amp; Dataset Annotation" />
+</p>
+
+<p align="left">
+  <strong>Cloud, Edge &amp; Systems Tooling</strong><br />
+  <img src="./assets/tech/aws.svg" height="32" alt="AWS Cloud" title="AWS — EC2, Route 53 DNS, Cloud Hosting &amp; Student Builder Group Tech Lead" />
+  <img src="./assets/tech/azure.svg" height="32" alt="Azure SWA" title="Azure Static Web Apps — Staging &amp; Production CI/CD Pipelines (beta2.orchvate.com)" />
+  <img src="./assets/tech/cloudflare.svg" height="32" alt="Cloudflare" title="Cloudflare Pages — Global Edge CDN Hosting, Custom Domains &amp; Zero-Overhead PWAs" />
+  <img src="./assets/tech/git.svg" height="32" alt="Git / CI" title="Git &amp; GitHub — Branch Workflows, Actions CI &amp; Spec-Driven Agent Governance" />
+  <img src="./assets/tech/linux.svg" height="32" alt="Linux / CLI" title="Linux &amp; macOS CLI — Ghostty, Bash/Zsh, Local Ollama &amp; System Automation" />
+  <img src="./assets/tech/spec-ops.svg" height="32" alt="Spec-Ops" title="Spec-Driven Agent Governance — Clean-Room PRD, TechSpec, Rules &amp; Verified Workflows" />
+</p>
 
 ---
 
@@ -126,7 +152,7 @@ Edge CDN (Cloudflare) ◀┘ (Zero Recurring DB Cost)</code></pre>
     <img src="./assets/x.svg" height="38" alt="X / Social" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:akhouriprakhar@gmail.com" title="Send Email">
+  <a href="mailto:akprakhar29@gmail.com" title="Send Email (akprakhar29@gmail.com)">
     <img src="./assets/email.svg" height="38" alt="Email" />
   </a>
 </div>

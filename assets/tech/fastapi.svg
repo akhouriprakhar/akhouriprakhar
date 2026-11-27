@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34" fill="none" role="img" aria-label="FastAPI">
+  <defs>
+    <style>
+      .txt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #e6edf3; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="109" height="33" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <g transform="translate(10, 8.5) scale(0.7)">
+    <path fill="#05998B" d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm1.096 4.887l-.441 5.438h3.818L8.685 19.113l1.173-6.196H6.38l6.716-8.03z" />
+  </g>
+  <text x="34" y="21.5" class="txt">FastAPI</text>
+</svg>
