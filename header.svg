@@ -86,9 +86,9 @@
   <g transform="translate(36, 74)">
     <!-- Command 1: Identity -->
     <text x="0" y="0" class="mono" font-size="13" fill="#10B981" font-weight="600">$ whoami</text>
-    <text x="0" y="32" class="sans" font-size="32" font-weight="800" fill="url(#name-gradient)" letter-spacing="-0.02em">Prakhar Akhouri</text>
+    <text x="0" y="32" class="sans" font-size="32" font-weight="800" fill="url(#name-gradient)" letter-spacing="-0.02em">Akhouri Prakhar</text>
     <text x="0" y="58" class="mono" font-size="13" fill="#94A3B8">
-      Pursuing <tspan fill="#34D399" font-weight="600">B.Tech in Computer Science &amp; Engineering</tspan> · Software Engineer &amp; Systems Builder
+      Prakhar · Pursuing <tspan fill="#34D399" font-weight="600">B.Tech in Computer Science &amp; Engineering</tspan> (Class of 2028)
     </text>
 
     <!-- Horizontal Divider -->

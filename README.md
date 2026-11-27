@@ -1,90 +1,57 @@
 <div align="center">
-
-  <!-- UNIFIED CYBER-TERMINAL IDENTITY HEADER -->
   <picture>
-    <img src="./header.svg" width="100%" alt="Prakhar Akhouri — Engineering Core & Systems Terminal" />
+    <img src="./header.svg" width="100%" alt="Akhouri Prakhar — Computer Science and Engineering" />
   </picture>
-
 </div>
 
-<br />
-
 ---
 
-### 🧰 Technology Arsenal
+### Technical Stack
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,py,java,mysql,postgres,html,css,js,ts&theme=dark" alt="Core Languages & Data" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=c" title="C" alt="C" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=cpp" title="C++" alt="C++" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=py" title="Python" alt="Python" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=java" title="Java" alt="Java" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=mysql" title="MySQL" alt="MySQL" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=postgres" title="PostgreSQL" alt="PostgreSQL" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=html" title="HTML5" alt="HTML5" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=css" title="CSS3" alt="CSS3" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=js" title="JavaScript" alt="JavaScript" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" alt="TypeScript" width="46" height="46" />
   <br />
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,fastapi,nodejs,git,github,docker,aws,azure,linux,bash&theme=dark" alt="Frameworks, Cloud & Tooling" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=react" title="React" alt="React" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=fastapi" title="FastAPI" alt="FastAPI" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" alt="Node.js" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=git" title="Git" alt="Git" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=github" title="GitHub" alt="GitHub" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=docker" title="Docker" alt="Docker" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=aws" title="Amazon Web Services" alt="AWS" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=azure" title="Microsoft Azure" alt="Azure" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=linux" title="Linux" alt="Linux" width="46" height="46" />
+  <img src="https://skillicons.dev/icons?i=bash" title="Bash / Shell" alt="Bash / Shell" width="46" height="46" />
 </p>
 
----
-
-### 🔬 Verified Engineering Showcase
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/akhouriprakhar/JusTrace">JusTrace</a></h4>
-      <p><b>India DPDP Act 2023 &amp; Rules 2025 Behavioral Lineage &amp; Compliance Auditor</b></p>
-      <ul>
-        <li>Deterministic, AST-backed static analysis and synthetic runtime verification engine.</li>
-        <li>Extracts code-level personal data lifecycles across polyglot source code, database schemas, caches, and queues using in-memory directed graphs (<code>NetworkX</code>).</li>
-        <li><b>Stack:</b> <code>Python</code> · <code>FastAPI</code> · <code>React 19</code> · <code>AST Parsers</code> · <code>93 Unit Tests</code></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤖 <a href="https://github.com/akhouriprakhar/price-monitor-bot">Price Monitor Bot</a></h4>
-      <p><b>Automated E-Commerce Telemetry &amp; Price Alerting Service</b></p>
-      <ul>
-        <li>Autonomous tracking service monitoring product catalog fluctuations across e-commerce platforms.</li>
-        <li>Dispatches real-time threshold notifications and historical price drop alerts directly to Telegram channels.</li>
-        <li><b>Stack:</b> <code>Python</code> · <code>Telegram Bot API</code> · <code>Async Requests</code> · <code>BeautifulSoup</code></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/akhouriprakhar">FightKaro Accessibility Suite</a></h4>
-      <p><b>Client-Side DOM Automation &amp; Interaction Enhancer</b></p>
-      <ul>
-        <li>Engineered client-side userscripts injecting accessible keyboard navigation, responsive UX adjustments, and automated session workflows.</li>
-        <li>Zero-dependency DOM observers ensuring performant client runtime rendering.</li>
-        <li><b>Stack:</b> <code>JavaScript</code> · <code>Tampermonkey</code> · <code>DOM APIs</code> · <code>Event Pipeline</code></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🎓 <a href="https://github.com/akhouriprakhar/attendance-sstc">Academic Attendance Suite</a></h4>
-      <p><b>Institutional Student Portal Automation &amp; Analytics</b></p>
-      <ul>
-        <li>Client integration tool parsing academic session metrics, calculating dynamic thresholds, and automating institutional schedule analysis.</li>
-        <li><b>Stack:</b> <code>TypeScript</code> · <code>Web Storage</code> · <code>Automation Scripts</code></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!--
+### Selected Projects
+Projects segment reserved for curated showcase.
+-->
 
 ---
 
-### 🏙️ 3D Isometric Telemetry
+### Contribution Activity
 
 <p align="center">
   <picture>
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Cityscape" />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Contribution Graph" />
   </picture>
 </p>
 
 ---
 
-### 📊 Real-Time Coding Rhythm & Languages
+### Development Rhythm
 
 <!-- cool-readme:start -->
-<!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-dark.svg">
@@ -109,26 +76,22 @@
 
 ---
 
-### 🌐 System Connection
+### Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/akhouriprakhar" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="34" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/akhouriprakhar" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="34" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://x.com/PrakharAkhouri" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="34" alt="X" />
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="32" alt="X" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:akprakhar29@gmail.com">
-    <img src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white" height="34" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-059669?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" />
   </a>
-</p>
-
-<p align="center">
-  <sub>Prakhar Akhouri · B.Tech Computer Science &amp; Engineering · Class of 2028</sub>
 </p>
