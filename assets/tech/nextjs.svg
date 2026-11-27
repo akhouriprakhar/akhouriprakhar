@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="114" height="34" viewBox="0 0 114 34" fill="none" role="img" aria-label="Next.js 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" fill="none" role="img" aria-label="Next.js 16">
   <defs>
     <style>
       .txt { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #e6edf3; }
     </style>
   </defs>
-  <rect x="0.5" y="0.5" width="113" height="33" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="115" height="33" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
   <g transform="translate(10, 8.5) scale(0.7)">
-    <path fill="#FFFFFF" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.836 17.653l-6.297-8.196v8.196H9.72V6.347h1.944l6.19 8.082V6.347h1.819v11.306h-1.837z" />
+    <path fill="#FFFFFF" d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z" />
   </g>
   <text x="34" y="21.5" class="txt">Next.js 16</text>
 </svg>

@@ -6,32 +6,50 @@
 
 <p align="left">
   <strong>Languages &amp; Core Systems</strong><br />
-  <img src="./assets/tech/cpp.svg" height="32" alt="C++ (DSA)" title="C++ — Data Structures, Algorithms (Striver A2Z / LeetCode) &amp; Priority Systems" />
-  <img src="./assets/tech/python.svg" height="32" alt="Python" title="Python — FastAPI, Async Bots, pandas/openpyxl Payroll Reconciliation &amp; ETL" />
+  <img src="./assets/tech/cpp.svg" height="32" alt="C++ (DSA)" title="C++ — Data Structures, Algorithms (LeetCode/Striver) &amp; Deterministic Priority Queues" />
+  <img src="./assets/tech/python.svg" height="32" alt="Python" title="Python — FastAPI, Async Telegram Bots, pandas/openpyxl Automation &amp; ETL Pipelines" />
   <img src="./assets/tech/javascript.svg" height="32" alt="JavaScript" title="JavaScript (ES6+) — Offline-First PWAs, Service Workers &amp; Dynamic DOM Engines" />
-  <img src="./assets/tech/typescript.svg" height="32" alt="TypeScript" title="TypeScript — Typed Frontend Architecture, Dagre &amp; @xyflow/react Dashboards" />
+  <img src="./assets/tech/typescript.svg" height="32" alt="TypeScript" title="TypeScript — Strictly Typed React 18, Next.js 16 &amp; @xyflow/react Dashboards" />
   <img src="./assets/tech/c.svg" height="32" alt="C Systems" title="C — Low-Level Systems Programming, Pointers &amp; Memory Fundamentals" />
-  <img src="./assets/tech/sql.svg" height="32" alt="SQL / SQLite" title="SQL, SQLite &amp; PostgreSQL — Relational Schemas, Local Persistence &amp; Async Scraper Storage" />
+  <img src="./assets/tech/java.svg" height="32" alt="Java" title="Java — Object-Oriented Software Engineering &amp; JavaFX Desktop Architectures" />
+  <img src="./assets/tech/bash.svg" height="32" alt="Bash / Zsh" title="Bash &amp; Zsh — Shell Automation, CLI Tooling &amp; macOS/Linux Workstation Scripting" />
+  <img src="./assets/tech/postgresql.svg" height="32" alt="PostgreSQL" title="PostgreSQL — Relational Data Modeling, Schema Design &amp; ACID Transactions" />
+  <img src="./assets/tech/sqlite.svg" height="32" alt="SQLite" title="SQLite — Lightweight Embedded Local Storage &amp; Async Scraper State" />
+  <img src="./assets/tech/html5.svg" height="32" alt="HTML5" title="HTML5 — Semantic Web Architecture &amp; Accessible WCAG Compliance" />
+  <img src="./assets/tech/css.svg" height="32" alt="CSS3" title="CSS3 — CSS Grid, Flexbox, Micro-Animations &amp; Responsive Layouts" />
 </p>
 
 <p align="left">
-  <strong>Frameworks, AST &amp; Web Runtimes</strong><br />
-  <img src="./assets/tech/react.svg" height="32" alt="React 18" title="React 18 &amp; Vite — Component Systems, @xyflow/react &amp; Azure SWA Staging Pipelines" />
-  <img src="./assets/tech/nextjs.svg" height="32" alt="Next.js 16" title="Next.js 16 — App Router, SSR/SSG &amp; Technical SEO Production Builds (careathomeranchi.com)" />
-  <img src="./assets/tech/fastapi.svg" height="32" alt="FastAPI" title="FastAPI — High-Throughput Async Python APIs &amp; DPDP Compliance Scanning Engine" />
-  <img src="./assets/tech/semgrep.svg" height="32" alt="Semgrep AST" title="Semgrep AST — Custom YAML Pattern Rules for DPDP Statutory Code Auditing" />
-  <img src="./assets/tech/tailwind.svg" height="32" alt="Tailwind CSS" title="Tailwind CSS &amp; CSS3 Grid — Dark-Mode Cybersecurity &amp; Responsive Layouts" />
-  <img src="./assets/tech/data-ml.svg" height="32" alt="Data / ML" title="pandas, LightGBM &amp; CVAT — Data Preprocessing, Reorder Modeling &amp; Dataset Annotation" />
+  <strong>Frontend &amp; Edge Web</strong><br />
+  <img src="./assets/tech/react.svg" height="32" alt="React 18" title="React 18 — Vite Build Tooling, Component Architecture &amp; Azure SWA Staging" />
+  <img src="./assets/tech/nextjs.svg" height="32" alt="Next.js 16" title="Next.js 16 — Production Edge Deployment (careathomeranchi.com), App Router &amp; Technical SEO" />
+  <img src="./assets/tech/vite.svg" height="32" alt="Vite" title="Vite — High-Speed Hot Module Replacement (HMR) &amp; Frontend Bundling" />
+  <img src="./assets/tech/tailwind.svg" height="32" alt="Tailwind CSS" title="Tailwind CSS — Utility-First Styling &amp; Cyber-Dark Design Systems" />
+  <img src="./assets/tech/pwa.svg" height="32" alt="PWA / SW" title="Progressive Web Apps &amp; Service Workers — Cache Storage API &amp; Offline-First Runtimes" />
 </p>
 
 <p align="left">
-  <strong>Cloud, Edge &amp; Systems Tooling</strong><br />
-  <img src="./assets/tech/aws.svg" height="32" alt="AWS Cloud" title="AWS — EC2, Route 53 DNS, Cloud Hosting &amp; Student Builder Group Tech Lead" />
-  <img src="./assets/tech/azure.svg" height="32" alt="Azure SWA" title="Azure Static Web Apps — Staging &amp; Production CI/CD Pipelines (beta2.orchvate.com)" />
-  <img src="./assets/tech/cloudflare.svg" height="32" alt="Cloudflare" title="Cloudflare Pages — Global Edge CDN Hosting, Custom Domains &amp; Zero-Overhead PWAs" />
-  <img src="./assets/tech/git.svg" height="32" alt="Git / CI" title="Git &amp; GitHub — Branch Workflows, Actions CI &amp; Spec-Driven Agent Governance" />
-  <img src="./assets/tech/linux.svg" height="32" alt="Linux / CLI" title="Linux &amp; macOS CLI — Ghostty, Bash/Zsh, Local Ollama &amp; System Automation" />
-  <img src="./assets/tech/spec-ops.svg" height="32" alt="Spec-Ops" title="Spec-Driven Agent Governance — Clean-Room PRD, TechSpec, Rules &amp; Verified Workflows" />
+  <strong>Backend, APIs &amp; Security Analysis</strong><br />
+  <img src="./assets/tech/fastapi.svg" height="32" alt="FastAPI" title="FastAPI — High-Throughput Asynchronous Python Microservices &amp; REST APIs" />
+  <img src="./assets/tech/semgrep.svg" height="32" alt="Semgrep AST" title="Semgrep AST — Custom YAML Pattern Rules for India DPDP Act Statutory Compliance Scanning" />
+  <img src="./assets/tech/postman.svg" height="32" alt="Postman" title="Postman — API Endpoint Testing, Mock Servers &amp; Automated Contract Verification" />
+</p>
+
+<p align="left">
+  <strong>Data Engineering &amp; Machine Learning</strong><br />
+  <img src="./assets/tech/pandas.svg" height="32" alt="pandas" title="pandas — Data Wrangling, Workbook Auditing &amp; Tabular ETL Pipelines" />
+  <img src="./assets/tech/numpy.svg" height="32" alt="NumPy" title="NumPy — Numerical Computing, Matrix Operations &amp; Vectorized Calculations" />
+</p>
+
+<p align="left">
+  <strong>Cloud, Edge &amp; DevOps Infrastructure</strong><br />
+  <img src="./assets/tech/aws.svg" height="32" alt="AWS Cloud" title="Amazon Web Services — EC2, S3, Route 53 DNS &amp; AWS Student Builder Group Tech Lead" />
+  <img src="./assets/tech/azure.svg" height="32" alt="Azure SWA" title="Microsoft Azure — Static Web Apps CI/CD Staging Pipelines (beta2.orchvate.com)" />
+  <img src="./assets/tech/cloudflare.svg" height="32" alt="Cloudflare Pages" title="Cloudflare Pages — Global Edge CDN Hosting, Custom Domains &amp; Zero-Downtime DNS" />
+  <img src="./assets/tech/docker.svg" height="32" alt="Docker" title="Docker — Containerized Development Environments &amp; Reproducible Deployments" />
+  <img src="./assets/tech/git.svg" height="32" alt="Git" title="Git — Atomic Commits, Trunk-Based Development &amp; Branch Strategies" />
+  <img src="./assets/tech/githubactions.svg" height="32" alt="GitHub Actions" title="GitHub Actions — Automated CI/CD Workflows, Matrix Builds &amp; Telemetry Cards" />
+  <img src="./assets/tech/linux.svg" height="32" alt="Linux Mint" title="Linux Mint &amp; POSIX — Unix Environment Hardening, System Administration &amp; CLI Workflows" />
 </p>
 
 ---
@@ -73,17 +91,17 @@ Real-Time Risk Verdict ◀────────┘</code></pre>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>Orchvate Web &amp; Payroll Pipelines</h4>
+      <h4>Orchvate Web &amp; Data Automation Pipelines</h4>
       <code>Python</code> · <code>pandas</code> · <code>openpyxl</code> · <code>Azure SWA</code>
       <ul>
-        <li>Automated three-point payroll reconciliation and monthly calendar rollover scripts covering <strong>112 main staff</strong> and <strong>39 OJT trainees</strong>.</li>
+        <li>Automated three-point data validation and monthly attendance/payout rollover scripts covering <strong>112 main staff</strong> and <strong>39 OJT trainees</strong>.</li>
         <li>React 18 + Vite corporate frontend rebuild, WCAG accessibility tooling, and CVAT ground-truth dataset pipelines.</li>
       </ul>
       <details>
         <summary>Inspect System Architecture</summary>
         <pre><code>Raw Attendance Logs ─▶ Python 3-Point Validator
                              │
-Verified Payroll XLSX ◀──────┘ (Zero-Drift Audit)</code></pre>
+Verified Payout XLSX ◀───────┘ (Zero-Drift Audit)</code></pre>
       </details>
     </td>
     <td width="50%" valign="top">
