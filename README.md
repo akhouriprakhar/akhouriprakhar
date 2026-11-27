@@ -99,3 +99,27 @@ I learn by building. From scripting backend logic to designing clean UIs, I focu
 ---
 
 [![](https://visitcount.itsvg.in/api?id=akhouriprakhar&icon=0&color=8)](https://visitcount.itsvg.in)
+
+<!-- cool-readme:start -->
+<!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-dark.svg">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-light.svg" width="400" alt="GitHub stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-light.svg" width="400" alt="Most used languages">
+</picture>
+</p>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/contributions-light.svg" width="400" alt="Notable contributions">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/weekly-dark.svg">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
+</picture>
+</p>
+<!-- cool-readme:end -->
