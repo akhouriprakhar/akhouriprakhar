@@ -1,8 +1,8 @@
-<svg width="860" height="310" viewBox="0 0 860 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Ambient Glow Gradients -->
     <radialGradient id="emerald-glow" cx="20%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.20" />
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22" />
       <stop offset="50%" stop-color="#059669" stop-opacity="0.06" />
       <stop offset="100%" stop-color="#080B11" stop-opacity="0" />
     </radialGradient>
@@ -37,8 +37,8 @@
   </defs>
 
   <!-- Main Container -->
-  <rect width="860" height="310" rx="16" fill="#0A0D14" />
-  <rect width="858" height="308" x="1" y="1" rx="15" stroke="url(#frame-border)" stroke-width="1.5" fill="none" />
+  <rect width="860" height="320" rx="16" fill="#0A0D14" />
+  <rect width="858" height="318" x="1" y="1" rx="15" stroke="url(#frame-border)" stroke-width="1.5" fill="none" />
 
   <!-- Ambient Light Fields -->
   <circle cx="200" cy="90" r="180" fill="url(#emerald-glow)" />
@@ -54,53 +54,64 @@
   <circle cx="60" cy="21" r="5.5" fill="#10B981" />
 
   <!-- Title -->
-  <text x="430" y="26" text-anchor="middle" class="mono" font-size="12" fill="#94A3B8" letter-spacing="0.04em">prakhar@system-core ~ % environment --summary</text>
+  <text x="430" y="26" text-anchor="middle" class="mono" font-size="12" fill="#94A3B8" letter-spacing="0.04em">prakhar@ghostty ~ % identity --verified</text>
 
   <!-- Live Status Badge -->
-  <g transform="translate(685, 11)">
-    <rect width="150" height="22" rx="11" fill="#064E3B" fill-opacity="0.5" stroke="#059669" stroke-width="1" />
+  <g transform="translate(670, 11)">
+    <rect width="165" height="22" rx="11" fill="#064E3B" fill-opacity="0.5" stroke="#059669" stroke-width="1" />
     <circle cx="14" cy="11" r="3.5" fill="#34D399" class="beacon-dot" />
-    <text x="25" y="15" class="mono" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.06em">ONLINE · CSE '28</text>
+    <text x="25" y="15" class="mono" font-size="10" font-weight="600" fill="#34D399" letter-spacing="0.06em">SSTC · 8.79 CPI · '28</text>
   </g>
 
   <!-- Content Block -->
-  <g transform="translate(36, 74)">
+  <g transform="translate(36, 72)">
     <!-- Command 1: Identity -->
     <text x="0" y="0" class="mono" font-size="13" fill="#10B981" font-weight="600">$ whoami</text>
     <text x="0" y="32" class="sans" font-size="32" font-weight="800" fill="url(#name-gradient)" letter-spacing="-0.02em">Akhouri Prakhar</text>
-    <text x="0" y="58" class="mono" font-size="13" fill="#94A3B8">
-      Prakhar · Pursuing <tspan fill="#34D399" font-weight="600">B.Tech in Computer Science &amp; Engineering</tspan> (Class of 2028)
+    <text x="0" y="58" class="mono" font-size="12.5" fill="#94A3B8">
+      Prakhar · <tspan fill="#34D399" font-weight="600">3rd-Year B.Tech CSE ('28)</tspan> @ SSTC Bhilai · SWE &amp; Data Ops Intern @ Orchvate
     </text>
 
+    <!-- Role Pills -->
+    <g transform="translate(0, 72)">
+      <rect width="215" height="22" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+      <text x="10" y="15" class="mono" font-size="10.5" fill="#38BDF8">AWS Student Builder Tech Lead</text>
+
+      <g transform="translate(225, 0)">
+        <rect width="210" height="22" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="10" y="15" class="mono" font-size="10.5" fill="#A78BFA">Orchvate SWE &amp; Data Ops Intern</text>
+      </g>
+    </g>
+
     <!-- Horizontal Divider -->
-    <line x1="0" y1="76" x2="788" y2="76" stroke="#1E293B" stroke-dasharray="4 4" stroke-width="1" />
+    <line x1="0" y1="108" x2="788" y2="108" stroke="#1E293B" stroke-dasharray="4 4" stroke-width="1" />
 
     <!-- Command 2: Functional System Environment Report -->
-    <g transform="translate(0, 102)">
-      <text x="0" y="0" class="mono" font-size="13" fill="#8B5CF6" font-weight="600">$ cat system_runtime.env</text>
+    <g transform="translate(0, 130)">
+      <text x="0" y="0" class="mono" font-size="13" fill="#8B5CF6" font-weight="600">$ cat environment.manifest</text>
 
       <!-- Terminal Environment Shell Window -->
       <g transform="translate(0, 14)">
-        <rect width="788" height="78" rx="8" fill="#0B111E" stroke="#1E293B" stroke-width="1" />
+        <rect width="788" height="74" rx="8" fill="#0B111E" stroke="#1E293D" stroke-width="1" />
 
-        <!-- Column 1: Core Technical Track -->
-        <g transform="translate(20, 24)">
-          <text x="0" y="0" class="mono" font-size="12" fill="#64748B">TRACK     <tspan fill="#F8FAFC">Computer Science &amp; Engineering</tspan></text>
-          <text x="0" y="20" class="mono" font-size="12" fill="#64748B">FOCUS     <tspan fill="#34D399">AI Detection Engines · Security Analysis · Automation</tspan></text>
-          <text x="0" y="40" class="mono" font-size="12" fill="#64748B">CORE CS   <tspan fill="#60A5FA">Data Structures &amp; Algorithms (C++) · Systems Logic</tspan></text>
+        <!-- Column 1: Core Track & Architecture -->
+        <g transform="translate(20, 22)">
+          <text x="0" y="0" class="mono" font-size="11.5" fill="#64748B">ENGINEERING <tspan fill="#F8FAFC">Deterministic Systems · Static Edge · Security ASTs</tspan></text>
+          <text x="0" y="19" class="mono" font-size="11.5" fill="#64748B">CORE STACK  <tspan fill="#60A5FA">C++ (DSA) · Python (FastAPI/Pandas) · React &amp; Next.js</tspan></text>
+          <text x="0" y="38" class="mono" font-size="11.5" fill="#64748B">WORKSTATION <tspan fill="#34D399">Apple Silicon M5 (macOS) · Ghostty · Linux Mint</tspan></text>
         </g>
 
-        <!-- Column 2: Practical Deliverables & Sprints -->
-        <g transform="translate(480, 24)">
-          <text x="0" y="0" class="mono" font-size="12" fill="#64748B">HACKATHONS <tspan fill="#A78BFA">36h Sprints (Veylance AI, JusTrace)</tspan></text>
-          <text x="0" y="20" class="mono" font-size="12" fill="#64748B">PLATFORMS  <tspan fill="#F8FAFC">macOS · Linux · Docker · AWS · Azure</tspan></text>
-          <text x="0" y="40" class="mono" font-size="12" fill="#64748B">STATUS     <tspan fill="#34D399">🟢 Active Builder · Shipping in Public</tspan></text>
+        <!-- Column 2: Hackathon & Execution Track Record -->
+        <g transform="translate(470, 22)">
+          <text x="0" y="0" class="mono" font-size="11.5" fill="#64748B">HACKATHONS <tspan fill="#A78BFA">2nd Runner-Up HackBIOS 3.0 (VeyLance AI)</tspan></text>
+          <text x="0" y="19" class="mono" font-size="11.5" fill="#64748B">HARDWARE   <tspan fill="#F8FAFC">1st Prize MeitY Autonomous UAV Bootcamp (IIT Bhilai)</tspan></text>
+          <text x="0" y="38" class="mono" font-size="11.5" fill="#64748B">STATUS     <tspan fill="#34D399">🟢 Active Builder · Shipping Production Software</tspan></text>
         </g>
       </g>
     </g>
 
     <!-- Bottom Active Prompt -->
-    <g transform="translate(0, 218)">
+    <g transform="translate(0, 234)">
       <text x="0" y="0" class="mono" font-size="12" fill="#64748B">
         <tspan fill="#10B981">➜</tspan> <tspan fill="#38BDF8">~/workspace</tspan> <tspan fill="#64748B">git:(main)</tspan> <tspan fill="#F1F5F9">make build-production</tspan><tspan fill="#34D399" class="cursor">_</tspan>
       </text>
