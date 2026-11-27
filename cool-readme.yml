@@ -7,3 +7,12 @@ look:
   style: classic
   color: github
   background: none
+show: [languages, contributions, weekly, summary, streaks, about, repos, downloads]
+cards:
+  about:
+    headline: "Hi, I'm *Akhouri*"
+    lines:
+      - "CS Undergrad @ Batch of 2028"
+      - "Building for the web and exploring cloud automation"
+    facts:
+      "Focus": "C++, Full-Stack & Cloud"
