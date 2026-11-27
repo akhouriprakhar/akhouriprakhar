@@ -1,48 +1,48 @@
-# Hi, I'm Akhouri Prakhar 👋
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="Akhouri Prakhar — Computer Science Engineering" />
+</p>
 
-Computer Science Engineering student (Batch of 2028) focused on Full-Stack Web Development, Cloud Computing, and Automation.
-
-- 🔭 **Currently working on:** Automation scripts & full-stack web applications
-- 🧠 **Leveling up:** Data Structures & Algorithms in C++
-- 💬 **Ask me about:** C++, Python, Web Development & Automation
-- 📫 **Reach me at:** [akprakhar29@gmail.com](mailto:akprakhar29@gmail.com)
-
----
-
-### 💻 Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/C-%2300599C.svg?style=flat&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white" alt="GitHub" />
+<p align="center">
+  <img src="./chat.svg" width="520" alt="Chat with Akhouri" />
 </p>
 
 ---
 
-### 📊 Activity & Stats
+<p><b>🧭 INTERACTIVE BREAKDOWN</b><br /><sub>tap each section to expand or collapse</sub></p>
+
+<details open>
+  <summary>🧰 <strong>Tech Stack &amp; Development Arsenal</strong></summary>
+  <br />
+
+| Domain | Technologies &amp; Tools |
+| :--- | :--- |
+| **Languages** | C · C++ · Python · Java · MySQL · HTML5 · CSS3 · JavaScript |
+| **Engineering &amp; Core** | Data Structures &amp; Algorithms, Object-Oriented Programming (OOP) |
+| **Development Tools** | Git · GitHub · VS Code · CMake · macOS &amp; Linux Terminal |
+| **Current Focus** | Full-Stack Web Development, Cloud Infrastructure &amp; Task Automation |
+
+</details>
+
+<details>
+  <summary>🚀 <strong>Active Projects &amp; Ecosystem</strong></summary>
+  <br />
+
+* ⚙️ **Automation Utilities:** Custom scripts for streamlined workflow automation and productivity.
+* 🌐 **Full-Stack Prototypes:** Modern web applications with clean, responsive user interfaces.
+* 🧠 **Algorithmic Problem Solving:** Consistent C++ DSA problem solving with focus on performance.
+
+</details>
+
+---
+
+<p><b>📊 REPO TELEMETRY &amp; CODING RHYTHM</b><br /><sub>real-time native cards · automatically updated</sub></p>
 
 <!-- cool-readme:start -->
 <!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/about-dark.svg">
-  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/about-light.svg" width="400" alt="About">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-dark.svg">
-  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-light.svg" width="400" alt="GitHub stats">
-</picture>
-</p>
-<p align="center">
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-light.svg" width="400" alt="Most used languages">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/languages-light.svg" width="400" alt="Languages">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/weekly-dark.svg">
@@ -50,6 +50,10 @@ Computer Science Engineering student (Batch of 2028) focused on Full-Stack Web D
 </picture>
 </p>
 <p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-dark.svg">
+  <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/summary-light.svg" width="400" alt="GitHub stats">
+</picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/streaks-dark.svg">
   <img src="https://raw.githubusercontent.com/akhouriprakhar/akhouriprakhar/cards/streaks-light.svg" width="400" alt="Streaks">
@@ -59,10 +63,20 @@ Computer Science Engineering student (Batch of 2028) focused on Full-Stack Web D
 
 ---
 
-### 🌐 Let's Connect
+<p align="center">
+  <i>"Focusing on clarity, curiosity, and consistency in everything I ship."</i>
+</p>
 
-<p align="left">
-  <a href="https://linkedin.com/in/akhouriprakhar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/PrakharAkhouri"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-  <a href="mailto:akprakhar29@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+<p align="center">
+  <a href="https://linkedin.com/in/akhouriprakhar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/PrakharAkhouri" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="32" alt="X" />
+  </a>
+  &nbsp;
+  <a href="mailto:akprakhar29@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" />
+  </a>
 </p>

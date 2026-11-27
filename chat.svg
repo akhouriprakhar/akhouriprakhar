@@ -1,0 +1,156 @@
+<svg width="520" height="248" viewBox="0 0 520 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble {
+      fill: #F3F4F6;
+      stroke: #E5E7EB;
+      stroke-width: 1px;
+    }
+    text {
+      fill: #111827;
+      font-size: 14.5px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing: -0.01em;
+    }
+    .emoji {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    /* Keyframes */
+    @keyframes wait {
+      0%, 100% { opacity: 0; }
+    }
+    @keyframes fade-typing {
+      0%, 100% { opacity: 0; }
+      30%, 85% { opacity: 1; }
+    }
+    @keyframes pop-msg-1 {
+      0% { opacity: 0; transform: translate(10px, 6px); }
+      100% { opacity: 1; transform: translate(10px, 0px); }
+    }
+    @keyframes pop-msg-2 {
+      0% { opacity: 0; transform: translate(10px, 54px); }
+      100% { opacity: 1; transform: translate(10px, 48px); }
+    }
+    @keyframes pop-msg-3 {
+      0% { opacity: 0; transform: translate(10px, 102px); }
+      100% { opacity: 1; transform: translate(10px, 96px); }
+    }
+    @keyframes pop-msg-4 {
+      0% { opacity: 0; transform: translate(10px, 174px); }
+      100% { opacity: 1; transform: translate(10px, 168px); }
+    }
+
+    /* Typing indicators */
+    .typing-1 { opacity: 0; animation: fade-typing 1.2s; }
+    .msg-1    { animation: wait 1.2s, pop-msg-1 0.25s 1.2s; }
+
+    .typing-2 { opacity: 0; animation: wait 1.3s, fade-typing 1.2s 1.3s; }
+    .msg-2    { animation: wait 2.5s, pop-msg-2 0.25s 2.5s; }
+
+    .typing-3 { opacity: 0; animation: wait 2.6s, fade-typing 1.4s 2.6s; }
+    .msg-3    { animation: wait 4.0s, pop-msg-3 0.25s 4.0s; }
+
+    .typing-4 { opacity: 0; animation: wait 4.1s, fade-typing 1.3s 4.1s; }
+    .msg-4    { animation: wait 5.4s, pop-msg-4 0.25s 5.4s; }
+
+    /* Dark Mode Support */
+    @media (prefers-color-scheme: dark) {
+      .bubble {
+        fill: #151823;
+        stroke: #262B3D;
+      }
+      text {
+        fill: #E2E8F0;
+      }
+      .dot {
+        fill: #818CF8 !important;
+      }
+    }
+  </style>
+
+  <!-- ================= MESSAGE 1 ================= -->
+  <!-- Typing 1 -->
+  <g transform="translate(10, 0)" class="typing-1">
+    <rect x="0" width="60" height="38" rx="19" class="bubble" />
+    <circle cx="18" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="30" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Msg 1 Bubble -->
+  <g transform="translate(10, 0)" class="msg-1">
+    <rect width="168" height="38" rx="19" class="bubble" />
+    <text x="18" y="24">Hi, I'm Akhouri <tspan class="emoji">👋</tspan></text>
+  </g>
+
+  <!-- ================= MESSAGE 2 ================= -->
+  <!-- Typing 2 -->
+  <g transform="translate(10, 48)" class="typing-2">
+    <rect x="0" width="60" height="38" rx="19" class="bubble" />
+    <circle cx="18" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="30" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Msg 2 Bubble -->
+  <g transform="translate(10, 48)" class="msg-2">
+    <rect width="365" height="38" rx="19" class="bubble" />
+    <text x="18" y="24">CS Engineering student @ Batch of 2028 <tspan class="emoji">🎓</tspan></text>
+  </g>
+
+  <!-- ================= MESSAGE 3 ================= -->
+  <!-- Typing 3 -->
+  <g transform="translate(10, 96)" class="typing-3">
+    <rect x="0" width="60" height="38" rx="19" class="bubble" />
+    <circle cx="18" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="30" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Msg 3 Bubble -->
+  <g transform="translate(10, 96)" class="msg-3">
+    <rect width="478" height="62" rx="19" class="bubble" />
+    <text x="18" y="26">Focused on full-stack web dev, cloud architecture, and</text>
+    <text x="18" y="48">scripting smart automation tools to make life easier <tspan class="emoji">⚙️</tspan></text>
+  </g>
+
+  <!-- ================= MESSAGE 4 ================= -->
+  <!-- Typing 4 -->
+  <g transform="translate(10, 168)" class="typing-4">
+    <rect x="0" width="60" height="38" rx="19" class="bubble" />
+    <circle cx="18" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="30" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="42" cy="19" r="3.5" fill="#9CA3AF" class="dot">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Msg 4 Bubble -->
+  <g transform="translate(10, 168)" class="msg-4">
+    <rect width="478" height="62" rx="19" class="bubble" />
+    <text x="18" y="26">Currently sharpening DSA in C++ and building in public.</text>
+    <text x="18" y="48">Explore my code below or say hi anytime! <tspan class="emoji">🚀</tspan></text>
+  </g>
+</svg>
