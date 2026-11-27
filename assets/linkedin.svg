@@ -1,0 +1,8 @@
+<svg width="138" height="40" viewBox="0 0 138 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="138" height="40" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1.2" />
+  <!-- Official Modern LinkedIn Glyph -->
+  <g transform="translate(16, 11)">
+    <path d="M16.5 0h-15A1.5 1.5 0 000 1.5v15A1.5 1.5 0 001.5 18h15a1.5 1.5 0 001.5-1.5v-15A1.5 1.5 0 0016.5 0zM5.34 15.34H2.67V6.75h2.67v8.59zM4 5.57a1.55 1.55 0 110-3.1 1.55 1.55 0 010 3.1zm11.34 9.77h-2.67v-4.18c0-1-.02-2.28-1.39-2.28-1.39 0-1.6 1.09-1.6 2.21v4.25H6.99V6.75h2.56v1.17h.04c.36-.67 1.23-1.38 2.52-1.38 2.7 0 3.2 1.78 3.2 4.09v4.71z" fill="#0A66C2" />
+  </g>
+  <text x="44" y="25" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="0.02em">LinkedIn</text>
+</svg>
